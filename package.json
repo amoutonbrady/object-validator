@@ -25,6 +25,7 @@
 		"@pika/plugin-build-web": "^0.6.0",
 		"@pika/plugin-ts-standard-pkg": "^0.6.0",
 		"@pika/types": "^0.6.0",
+		"@types/jest": "^24.0.18",
 		"jest": "^24.9.0",
 		"np": "^5.0.3",
 		"npm-run-all": "^4.1.5",
