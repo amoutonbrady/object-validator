@@ -11,22 +11,24 @@
 		"access": "public"
 	},
 	"scripts": {
-		"clean": "rimraf ./pkg",
 		"build": "pika build",
-		"push": "np",
 		"release": "pika publish",
-		"version": "npm run build",
-		"test:unit": "node -r esm test/index.js"
+		"test": "jest"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.6.0",
+		"@babel/preset-env": "^7.6.0",
+		"@babel/preset-typescript": "^7.6.0",
 		"@pika/pack": "^0.5.0",
 		"@pika/plugin-build-node": "^0.6.0",
 		"@pika/plugin-build-web": "^0.6.0",
 		"@pika/plugin-ts-standard-pkg": "^0.6.0",
 		"@pika/types": "^0.6.0",
+		"jest": "^24.9.0",
 		"np": "^5.0.3",
 		"npm-run-all": "^4.1.5",
 		"pika-plugin-minify": "^0.1.0",
+		"prettier": "^1.18.2",
 		"rimraf": "^3.0.0",
 		"terser": "^4.3.1",
 		"typescript": "^3.5.3"
