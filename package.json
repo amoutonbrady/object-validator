@@ -1,11 +1,11 @@
 {
 	"name": "@amoutonbrady/object-validator",
 	"version": "0.2.0",
-	"main": "index.js",
+	"main": "src/index.ts",
 	"license": "MIT",
 	"author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
 	"description": "A minimalistic, pluggable object validator",
-	"repository": "https://github.com/amoutonbrady/utils.git",
+	"repository": "https://github.com/amoutonbrady/object-validator.git",
 	"private": false,
 	"publishConfig": {
 		"access": "public"
