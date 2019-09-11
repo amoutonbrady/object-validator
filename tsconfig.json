@@ -2,11 +2,9 @@
 	"compilerOptions": {
 		"target": "es2019",
 		"module": "esnext",
-		"strict": true,
-		"allowSyntheticDefaultImports": true,
-		"sourceMap": true,
-		"removeComments": true
+		"moduleResolution": "node",
+		"esModuleInterop": true
 	},
-	"include": ["src/index.ts"],
-	"exclude": ["node_modules", "**/__tests__/*"]
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
 }
