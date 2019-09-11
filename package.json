@@ -1,6 +1,6 @@
 {
 	"name": "@amoutonbrady/object-validator",
-	"version": "0.1.0",
+	"version": "0.0.0",
 	"main": "index.js",
 	"license": "MIT",
 	"author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
@@ -14,7 +14,7 @@
 		"clean": "rimraf ./pkg",
 		"build": "pika build",
 		"push": "np",
-		"publish": "pika publish",
+		"release": "pika publish",
 		"version": "npm run build",
 		"test:unit": "node -r esm test/index.js"
 	},
