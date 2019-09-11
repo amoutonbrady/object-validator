@@ -1,6 +1,6 @@
 {
 	"name": "@amoutonbrady/object-validator",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"main": "src/index.ts",
 	"license": "MIT",
 	"author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
